@@ -1,4 +1,4 @@
-# cis
+# CIS-Web
 
 ## Project setup
 ```
