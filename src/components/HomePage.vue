@@ -1,6 +1,24 @@
 <script>
 export default {
-  name: "HomePage"
+  name: "HomePage",
+  mounted() {
+    this.showKIMIN();
+  },
+  methods: {
+    showKIMIN() {
+      console.log(
+          "--------- Developed by KIMIN ---------\n" +
+          "______________________________________\n\n" +
+          "+-+ +-+ +-+ +--+    +--+ +-+ +--+  +-+\n" +
+          "| |/ /  | | |   \\  /   | | | |   \\ | |\n" +
+          "|   |   | | | |\\ \\/ /| | | | | |\\ \\| |\n" +
+          "| |\\ \\  | | | | \\  / | | | | | | \\   |\n" +
+          "+-+ +-+ +-+ +-+  ++  +-+ +-+ +-+  +--+\n" +
+          "______________________________________\n\n" +
+          "-|MAIL: mailto://kimin_huang@qq.com\n" +
+          "-|GITHUB: https://github.com/kimin5314\n");
+    }
+  }
 }
 </script>
 
