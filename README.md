@@ -1,4 +1,4 @@
-# CIS-Web
+# CIS_Web
 
 ## Project setup
 ```
@@ -23,4 +23,4 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### [CIS-Server here](https://github.com/kimin5314/CIS-Server)
+### [CIS_Server here](https://github.com/kimin5314/CIS_Server)
