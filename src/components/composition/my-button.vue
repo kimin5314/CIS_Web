@@ -1,10 +1,21 @@
 <script setup>
+import { defineProps } from 'vue'
 
+const props = defineProps({
+  label: {
+    type: String,
+    default: 'Button'
+  },
+  onClick: {
+    type: Function,
+    default: () => {}
+  }
+})
 </script>
 
 <template>
-  <button>
-
+  <button @click="props.onClick">
+    {{ props.label }}
   </button>
 </template>
 
